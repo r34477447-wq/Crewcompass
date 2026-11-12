@@ -1,0 +1,10 @@
+{
+  "name": "CrewCompass",
+  "short_name": "CrewCompass",
+  "description": "Offline-first crew health companion. Decision support, not a medical device.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070d19",
+  "theme_color": "#070d19",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070d19">
+  <meta name="description" content="CrewCompass: an offline-first crew health companion. Decision support, not a medical device.">
+  <title>CrewCompass</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+  <div id="root"><p style="padding:40px;font-family:sans-serif;color:#b8c4d6">Loading CrewCompass…<br><small id="loadhelp"></small></p></div>
+  <noscript>CrewCompass needs JavaScript.</noscript>
+  <script>setTimeout(function(){var e=document.getElementById("loadhelp");if(e)e.textContent="Still loading? This page must be opened through the CrewCompass server (run.sh), or use the standalone file crewcompass-standalone.html, which needs no server.";},3000);</script>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
